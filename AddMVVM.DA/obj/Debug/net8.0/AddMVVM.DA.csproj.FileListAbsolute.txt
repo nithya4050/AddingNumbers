@@ -1,0 +1,12 @@
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\bin\Debug\net8.0\AddMVVM.DA.deps.json
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\bin\Debug\net8.0\AddMVVM.DA.dll
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\bin\Debug\net8.0\AddMVVM.DA.pdb
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\AddMVVM.DA.csproj.AssemblyReference.cache
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\AddMVVM.DA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\AddMVVM.DA.AssemblyInfoInputs.cache
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\AddMVVM.DA.AssemblyInfo.cs
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\AddMVVM.DA.csproj.CoreCompileInputs.cache
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\AddMVVM.DA.dll
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\refint\AddMVVM.DA.dll
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\AddMVVM.DA.pdb
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.DA\obj\Debug\net8.0\ref\AddMVVM.DA.dll

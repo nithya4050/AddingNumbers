@@ -1,0 +1,59 @@
+﻿<Window x:Class="AddMVVM.View.Home"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AddMVVM.View"
+        xmlns:vm="clr-namespace:AddMVVM.ViewModel"
+        xmlns:rs="clr-namespace:AddMVVM.Converter"
+        mc:Ignorable="d"
+        Title="Home" Height="1000" Width="300">
+
+
+    <Window.Resources>
+        <rs:IBooltoVisibleConverter x:Key="boolconv"></rs:IBooltoVisibleConverter>   
+    </Window.Resources>
+    <Window.DataContext>
+        <vm:HomeViewModel></vm:HomeViewModel>
+    </Window.DataContext>
+
+    <StackPanel Margin="20">
+        
+        <StackPanel Visibility="{Binding Homefield.Show}">
+             <TextBlock Text="First No" Width="100" Height="20"  Margin="10"></TextBlock>
+             <TextBox Text="{Binding Homefield.Fno}" x:Name="txtfno" Width="100" Height="20"></TextBox>
+             <TextBlock Text="Second No" Width="100" Height="20"  Margin="10"></TextBlock>
+             <TextBox Text="{Binding Homefield.Sno}" x:Name="txtsno"  Width="100" Height="20"></TextBox>
+             <TextBlock Text="Result" Width="100" Height="20"  Margin="10"></TextBlock>
+             <TextBox Text="{Binding Homefield.Totale,Mode=OneWay}" x:Name="txtresult" Width="100" Height="20"></TextBox>
+             <Button Content="ADD" Command="{Binding AddData}"  Width="100" Height="20"  Margin="10"></Button>
+             <Button Content="CLEAR" Command="{Binding ClearData}"  Width="100" Height="20"  Margin="2"></Button>
+        </StackPanel>
+        
+        <StackPanel>
+            <TextBlock Text="Default" Width="100" Height="20"  Margin="10" HorizontalAlignment="Center"></TextBlock>
+            <TextBox Text="Hi" x:Name="txtmode5" Width="100" Height="20"></TextBox>
+            <TextBox Text="{Binding Text, ElementName=txtmode5,Mode=Default}" x:Name="txtmod5" Width="100" Height="20"></TextBox>
+
+            <TextBlock Text="one time" Width="100" Height="20"  Margin="10" HorizontalAlignment="Center"></TextBlock>
+            <TextBox Text="Hi" x:Name="txtmode4" Width="100" Height="20"></TextBox>
+            <TextBox Text="{Binding Text, ElementName=txtmode4,Mode=OneTime}" x:Name="txtmod4" Width="100" Height="20"></TextBox>
+
+            <TextBlock Text="one way" Width="100" Height="20"  Margin="10" HorizontalAlignment="Center"></TextBlock>
+            <TextBox Text="Hi" x:Name="txtmode1" Width="100" Height="20"></TextBox>
+            <TextBox Text="{Binding Text, ElementName=txtmode1,Mode=OneWay}" x:Name="txtmod1" Width="100" Height="20"></TextBox>
+
+            <TextBlock Text="Two way" Width="100" Height="20"  Margin="10" HorizontalAlignment="Center"></TextBlock>
+            <TextBox Text="Hi" x:Name="txtmode2" Width="100" Height="20"></TextBox>
+            <TextBox Text="{Binding Text, ElementName=txtmode2,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="txtmod2" Width="100" Height="20"></TextBox>
+
+            <TextBlock Text="One way to source" Width="100" Height="20"  Margin="10" HorizontalAlignment="Center"></TextBlock>
+            <TextBox Text="Hi" x:Name="txtmode3" Width="100" Height="20"></TextBox>
+            <TextBox Text="{Binding Text, ElementName=txtmode3,Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}" x:Name="txtmod3" Width="100" Height="20"></TextBox>
+
+
+        </StackPanel>
+    </StackPanel>
+    
+   
+</Window>

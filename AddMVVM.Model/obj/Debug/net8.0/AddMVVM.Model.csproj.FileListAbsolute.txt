@@ -1,0 +1,11 @@
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\bin\Debug\net8.0\AddMVVM.Model.deps.json
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\bin\Debug\net8.0\AddMVVM.Model.dll
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\bin\Debug\net8.0\AddMVVM.Model.pdb
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\AddMVVM.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\AddMVVM.Model.AssemblyInfoInputs.cache
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\AddMVVM.Model.AssemblyInfo.cs
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\AddMVVM.Model.csproj.CoreCompileInputs.cache
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\AddMVVM.Model.dll
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\refint\AddMVVM.Model.dll
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\AddMVVM.Model.pdb
+C:\Users\snafa\source\repos\AddMVVM\AddMVVM.Model\obj\Debug\net8.0\ref\AddMVVM.Model.dll
